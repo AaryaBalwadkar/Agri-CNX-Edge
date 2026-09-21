@@ -12,12 +12,10 @@ On-device YOLO + distilled AI app that detects apple leaf, pest, fruit disease &
 Python, PyTorch, Kotlin, Jetpack Compose, CameraX, ONNX, ONNX Runtime, DINOv3, LoRA, Ultralytics YOLO, OpenCV, Albumentations, scikit-learn, Gradle, Firebase
 
 **Try it out links:**
-1. https://github.com/[YOUR-USERNAME]/bunniex-agricnxedge
-2. [YOUR DRIVE APK LINK / DEMO LINK]
+1. https://github.com/AaryaBalwadkar/Agri-CNX-Edge
+(No APK needed - GitHub + video is enough)
 
-**Image gallery:** upload 4-5 from demo/ + 1 architecture diagram (3:2, <5MB)
-
-**Video demo link:** https://www.youtube.com/watch?v=[YOUR-ID] (must be Public or Unlisted, embedding ON)
+**Video demo link:** https://youtube.com/shorts/xrtBk4V59G4?feature=share (must be Public or Unlisted, embedding ON)
 
 ---
 
@@ -35,9 +33,8 @@ Teachers on PDDD + YOLO26s -> soft labels -> single ADC student (DINOv3-ConvNeXt
 
 Stack: Python, PyTorch, ONNX, Kotlin, Compose, CameraX, Albumentations.
 
-Demo: [YOUTUBE LINK]
-Code: https://github.com/[YOUR-USERNAME]/bunniex-agricnxedge
-APK: [DRIVE LINK]
+Demo: https://youtube.com/shorts/xrtBk4V59G4?feature=share
+Code: https://github.com/AaryaBalwadkar/Agri-CNX-Edge
 
 ## Challenges we ran into
 Large DINOv3 weights for mobile, 16KB page-size Play compliance, YOLO txt conversion, offline 512px latency, balancing 4-task loss.
@@ -51,6 +48,3 @@ Distillation, LoRA fine-tuning, ONNX quantization, CameraX + ONNX threading, edg
 ## What's next for AgriCNXEdge
 Treatment advisory via Featherless AI LLM, Telugu/Hindi voice, fertilizer dose, iOS, 50-farmer pilot, mAP + F1 publication.
 ```
-
-## Submit tab
-Tick: I agree to Official Rules + Terms of Service -> Submit project. You can edit till Sep 22 5pm IST.

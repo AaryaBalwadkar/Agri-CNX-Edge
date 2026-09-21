@@ -3,7 +3,7 @@
 > BunnieX Hackathon submission — AI-powered offline Android app for apple leaf disease, pest, fruit disease + yield counting.
 
 **Demo Video:** [PASTE YOUR YOUTUBE LINK HERE - Public/Unlisted]  
-**Live Demo / APK:** [PASTE DRIVE LINK / APK LINK HERE]  
+**Source Code:** GitHub repo (this repo)  
 **Devpost:** https://buuniex-hackathon.devpost.com/
 
 ## Problem
@@ -52,13 +52,13 @@ bunniex-agricnxedge/
 
 ## Quickstart
 
-### 1. Android app
+### 1. Android app (optional - judges can evaluate via video + code)
 ```
-1. Download model: [DRIVE LINK to adc_student_full.onnx] -> place in android-app/app/src/main/assets/
-   (excluded from git due to size, see android-app/README.md)
-2. Open android-app/ in Android Studio Ladybug+
-3. Sync Gradle, run on physical device (minSdk 26)
-4. Grant camera permission, tap Capture / Pick image
+1. Open android-app/ in Android Studio Ladybug+
+2. Sync Gradle, run on physical device (minSdk 26)
+3. Grant camera permission, tap Capture / Pick image
+   Note: model file adc_student_full.onnx is excluded from git due to size.
+   Place your local copy in android-app/app/src/main/assets/ to run.
 ```
 
 ### 2. AI model training / eval
@@ -86,7 +86,9 @@ Weights needed: DINOv3 ConvNeXt-Tiny `dinov3_convnext_tiny_pretrain_lvd1689m-21b
 Offline edge AI cuts diagnosis time from days to seconds, works without internet. Next: multilingual advisory with Featherless AI LLM, treatment recommender, iOS, pilot with 50 farmers.
 
 ## Team
-[YOUR NAME + TEAMMATES, COLLEGE]
+Aarya Balwadkar
+Eccha Bansal
+Symbiosis Institute of Technology, Pune, India
 
 ## License
 MIT - see LICENSE
