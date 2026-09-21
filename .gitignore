@@ -1,0 +1,43 @@
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+.kotlin/
+build/
+app/build/
+app/release/
+*.apks
+*.aab
+*.apk
+local.properties
+
+# Python / AI
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.onnx
+*.tflite
+data/
+weights/
+final_dataset/
+phase2_results/
+*.csv
+!demo/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large media - keep in Drive, not git
+*.mp4
+*.mov
+*.zip
+bench/
+bench_v2/
